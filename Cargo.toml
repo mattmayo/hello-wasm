@@ -1,0 +1,12 @@
+[package]
+name = "hello-wasm"
+version = "0.1.0"
+authors = ["Matt Mayo <matt.mayo@gmail.com>"]
+license = "MIT/Apache-2.0"
+repository = "https://github.com/mattmayo/hello-wasm"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
