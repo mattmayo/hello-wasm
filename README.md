@@ -14,3 +14,10 @@ Here lies an example of how to create a wasm (web assembly) module by compiling 
 1. `cd site`
 1. `npm install`
 1. `npm run serve`
+
+## How to compile the Rust module (this is a bit more involved)
+1. Install rust https://www.rust-lang.org/tools/install
+1. `cargo install wasm-pack`
+1. `npm adduser` to publish the rust module to npm (remember to update the package name in package json if you are publishing to your account)
+1. `wasm-pack build --scope mynpmusername`
+
